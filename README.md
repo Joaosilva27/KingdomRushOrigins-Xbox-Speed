@@ -63,11 +63,3 @@ It also wraps `storage_io_generic.write_file` so the game cannot drop `custom_sc
 | `install.ps1` / `install.cmd` | Installer with backups and loader patching. |
 | `uninstall.ps1` / `uninstall.cmd` | Removes the module and the loader entry. |
 | `CHANGELOG.md` | Version history. |
-
-## Credits
-
-The idea of using the game's `custom_script` hook together with `game.DBG_TIME_MULT` comes from the
-Steam-only [KingdomRushOrigins-2xSpeedMod](https://github.com/aeoliannn/KingdomRushOrigins-2xSpeedMod).
-The GDK/Xbox port (this repo), its multi-step speed cycle, HUD badge, installer and diagnostics were
-written from scratch for the Microsoft Store build, which loads custom scripts from a different folder
-and needs its own key handling.
